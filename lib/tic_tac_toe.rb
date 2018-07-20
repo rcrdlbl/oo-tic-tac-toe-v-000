@@ -124,7 +124,7 @@ class TicTacToe
     end
   end
 
-  def play(board)
+  def play(@board)
     until over?(board)
       turn(board)
     end
@@ -134,6 +134,6 @@ class TicTacToe
       puts "Cat's Game!"
     end
   end
-  
+
 
 end
